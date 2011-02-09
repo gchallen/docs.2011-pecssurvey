@@ -1,0 +1,13 @@
+\input{./include/start.tex}
+
+\def\thetitle{Title}
+\def\shorttitle{Short Title}
+\begin{document}
+\pagestyle{document}
+\thispagestyle{emptydocument}
+\pagenumbering{arabic}
+\chapterstyle{title}
+\chapter{\thetitle}
+\chapterstyle{document}
+\input{content.tex}
+\end{document}
