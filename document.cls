@@ -84,13 +84,15 @@
 \noindent\begin{minipage}[t]{0.8\textwidth}
 \vspace{0pt}
 \raggedright
-\Large\scshape\MakeUppercase{##1}
+\Large\scshape{##1}
+\vspace*{0.10in}
 \end{minipage}
 \begin{minipage}[t]{0.19\textwidth}
 \vspace{0pt}
 \raggedleft
 {\small \scshape \today}
-\end{minipage}}
+\end{minipage}
+{\large\theauthors}}
   \renewcommand{\afterchaptertitle}{\vspace{0.5\onelineskip} \hrule \vspace{0.5\onelineskip}}
 } 
 \makechapterstyle{document}{%
