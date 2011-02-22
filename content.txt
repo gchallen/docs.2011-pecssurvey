@@ -1,0 +1,73 @@
+How would you define PeCS? What makes PeCS distinct from related fields, such as cyber-physical systems?
+
+Discussing "pervasive" systems "at scale" would seem to be redundant: anything truly pervasive is by definition deployed at scale. However, the redundancy embedded in PeCS highlights scale as a core challenge currently arresting the pervasive computing vision. So I would define "Pervasive Computing at Scale" as a continuation of earlier pervasive computing visions while acknowledging scale as an exciting current research challenge.
+
+What distinguishes PeCS from cyber-physical systems (CPS) and an earlier community interest in wireless sensor networks (WSNs) is that these technologies, while pervasive in nature, tend to be explored outside of a human context. The scheduled program and discussions that occurred at the PeCS workshop indicate an interest within the community of exploring the interaction between humans and pervasive computing and incorporating these observations into the design of future pervasive systems.
+
+What aspects of PeCS are already well understood by the community?
+
+As a newcomer to this field, I don't feel qualified to answer to fully answer this question. At the workshop most topics seemed up for discussion. I did get a strong sense of vision from those that had been working in this area for longer, so it seems that the community has a strong sense of direction. However, as human experience with different technologies changes and large numbers of people vote for different approaches with their money and attention, it is clear that this human experience should lead to revising the original pervasive computing blueprint.
+
+What are the Grand Challenges in PeCS and what are the road blocks for each of these challenges?
+
+The composition of this "Grand Challenge" list is based on my own interests and does not pretend to reflect the totality of such challenges in pervasive computing:
+
+1. Eliminate non-mobile personal computing. We can already imagine a world where desktop computers and even laptop-class machines become obsolete, replaced by handheld devices interacting with powerful cloud resources and harnessing computation and energy from the environment around them. Achieving this vision requires improving the capabilities, interfaces, and battery lifetime of portable devices while improving their interaction with the cloud.
+
+2. Use data analytics to change our lives. The search functionality provided by Google and others is ill-suited to allowing users to cope with the ever-expanding universe of data. Search is "pull-based", whereas new pervasive systems will route relevant data to users in a "push-based" fashion. Pervasive computing is required to help provide the context and information about users to enable this data delivery to succeed, as well as helping drive data analytics that transform data into user-initiated action.
+
+3. Understand how computers transform energy into information. Pervasive computing platforms are likely to be limited by several factors, including human attention and available energy. Today's computers transform energy into information but while energy can be easy to measure the relevance and utility of the information produced is much harder to quantify, making the fundamental energy efficiency ratio difficult to define or measure. However, improving the energy usage of computing systems requires measuring and optimizing this ratio, leading to the requirement that we better understand the energy transformation process.
+
+4. Integrate computation and storage into the environment. Today, people tend to go where computers are, in order to use desktops, or computers tend to go where people are, traveling in pockets and laptop bags. In the future, computation, storage and other computing resources may be embedded in the environment in places where they can serve a broad user community. This will reduce the requirement that future users carry computation on their persons, while moving computation closer to sources of data and points of control. It may also allow future pervasive devices to harness environmental energy sources such as solar power and convert them directly to computation, rather than being attached to the grid.
+
+What interdisciplinary collaboration would be critical to meet the grand challenges? What are the major challenges and proposed solutions for interdisciplinary research?
+
+I see three specific areas of future interdisciplinary work:
+
+1. With computer scientists studying human-computer interaction. This is perhaps the most obvious area for collaboration, and the easiest since these are colleagues in our own field. Also, as evidenced by the PeCS Workshop itself, many HCI specialists are already doing working in pervasive computing or doing work with broad intersections.
+
+2. With social scientists. Reaching out to social scientists is important for two reasons. First, large-scale understanding of human behavior is critical to designing systems that humans will actually use. Second, as we design and deploy new pervasive systems there are opportunities to improve our understanding of human behavior by feeding the data they collect to those in fields that study relevant problems.
+
+3. With engineers that design and build existing infrastructure. When we talk about embedding computing in the environment, the environment is a built environment and it is built by engineers and specialists in other areas. We need to build connections with those that build our buildings, roads, power grids, and other key infrastructure components in order to understand how we can integrate pervasive computing into these existing and complex systems.
+
+What kinds of technology solutions can be expected to evolve out of PeCS that will create millions of jobs? How would you recommend to facilitate technology transfer of research investments in this area?
+
+If I knew how to answer the first half of this question, I would go out and make sure those millions of people were working for me! I think it's near-impossible to foresee the kind of return on investment that research in computer science can achieve, but would also point out that our field has a very good track record in creating and advancing technologies like personal computers and the Internet that have defined entire industries.
+
+I think that active and open exploration of the pervasive computing design space in academia will help industry avoid local-maxima in design and implementation. Technology transfer will be facilitated by the academic publishing culture and accelerate by the contacts between academia and industry necessary for large-scale pervasive computing research to succeed.
+
+Why do you think the federal government should support PeCS research? Why couldn't today's industry achieve these goals? Suggest specific funding agencies and programs that will effectively support the next generation of PeCS research.
+
+I believe that industry will continue to have a large role in actually implementing and monetizing pervasive computing technologies. But their ability to do so is largely dependent on the capabilities of this and the next generation of computer scientists which we as academics are training. Cutting edge research at Universities can help excite students and lure them into this area while training them to make sure that they can seamlessly transfer into industry positions as many of them ultimately will.
+
+NSF CISE has a major role to play in funding this area. There are likely defense-related activities of these technologies that overlap non-defense applications and could be funded by the Defense Department. E-ARPA and the Department of Energy could fund pervasive computing applications that improve our ability to understand and control societal energy consumption.
+
+What are the educational opportunities and challenges for PeCS, including multidisciplinary education and training of faculty and postdocs?
+
+Our primary goal and opportunity is to use changes in the pervasive landscape to alter how we teach students. Pervasive computing integrates many aspects of technology originally developed separately, and offers us the chance to develop new integrative approaches that both excite and prepare future engineers.
+
+If the NSF establishes the field with new funding programs, I believe that new faculty will choose to center their research in this area. At the workshop it was clear that, at least recently, few faculty members would consider "pervasive computing" to be their core area. (It seems like this was a more common area to build a research program around 10 years ago.)
+
+What are the short term (3-5 years), mid term (5-10 years), and long-term visions and goals of the PeCS field?
+
+I would submit my "Grand Challenge" suggestions as long-term visions and goals.
+
+Mid-term goals include better user interfaces and more capable mobile devices that begin to obsolete desktop machines and attention to the interface between mobile devices and the cloud. We also need to determine how to best teach these concepts to students and evaluate how well we can prepare them to program in a pervasive world.
+
+Short-term goals include better energy profiling on mobile devices and the development of a set of visionary applications that will help drive innovation forward. As presented in the workshop, there are opportunities in personal assistance, productivity, health care and other areas where our efforts will both intersect with pervasive computing goals and benchmarks while also spurring commercial innovation.
+
+What were the top three ideas emerging from the workshop that most interested you?
+
+1. Interest in testbeds. Given our whitepaper, I was pleased that there was a general sense that testbeds are critical to moving the pervasive vision forward.
+
+2. Exploring new mobile interfaces. The workshop highlighted for me the role the interfaces and usability are going to play in advancing pervasive computing. With smaller, more capable devices meeting bigger, more personal data, deciding how devices present and facilitate interaction with information is critical.
+
+3. Embedding computing into the environment. I am very interested in a future where computation migrates from being attached to our bodies and walls and instead perpetually-powered and integrated into our environment.
+
+What are ways that NSF and the community can do to advance the ideas discussed at the workshop? What activities would you propose to build a stronger PeCS community?
+
+First, NSF should provide funding for the PeCS community and supporting integrative PeCS-related activity. A new program could be structured along the lines of the existing cyber-physical systems program, which divides research activities into foundations, tools, and systems. After attending the PeCS workshop I believe that there are a set of distinct research activities that would be funded by this program and not by other related programs.
+
+Second, the NSF should facilitate interaction between computer scientists and industry players that can provide access to hardware, software, and data sets taken from large numbers of real phones and other pervasive devices.
+
+Finally, the NSF should fund educational outreach and activities. Pervasive computing has a great deal of exciting potential through its potential for making data for available and useful, and in the way that it engages human users. 
